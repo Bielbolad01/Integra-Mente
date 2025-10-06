@@ -1,0 +1,521 @@
+ <!-- ================================== KAYKY COMEÇO ======================================= -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/integra.ico" type="image/x-icon">
+    <title>Integramente - Plataforma de Apoio Psicológico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo-imagem">
+                <img src="imagens/LOGO PROJETO.svg" alt="Logo" class="logo-imagem">
+            </div>
+            <nav class="navegacao" >
+                <ul class="menu-lista">
+                    <li><a href="#inicio" class="link-menu">Início</a></li>
+                    <li><a href="#projetos" class="link-menu">Projetos</a></li>
+                    <li><a href="#como-funciona" class="link-menu">Como Funciona</a></li>
+                    <li><a href="#ser-voluntario" class="link-menu">Ser Voluntário</a></li>
+                    <li><a href="#sobre" class="link-menu">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="inicio" class="secao-principal">
+        <div class="container">
+            <div class="banner">
+                <div class="conteudo-banner">
+                    <h2 class="titulo-banner">Cuidar da Mente é Cuidar da Vida</h2>
+                    <p class="texto-banner">Conectamos pessoas que precisam de apoio psicológico com profissionais qualificados e voluntários dedicados.</p>
+                   <a href="#ser-voluntario"> <button class="botao-destaque">Se Tornar Voluntário</button></a>
+                </div>
+                <div class="imagem-lateral">
+                    <img src="imagens/arte1.png" alt="Apoio Psicológico" class="imagem-banner">
+                </div>
+            </div>
+        </div>
+            <div class="introducao">
+                <h3 class="titulo-introducao">Nossa Missão</h3>
+                <p class="texto-introducao">
+                    Acreditamos que todos merecem acesso a apoio psicológico de qualidade. Nossa plataforma conecta 
+                    pessoas que precisam de ajuda com psicólogos, terapeutas e grupos de apoio voluntários, 
+                    criando uma rede solidária de cuidado mental.
+                </p>
+            </div>
+    </section>
+
+
+    <section id="voluntarios" class="secao-voluntarios">
+        <div class="container">
+            <h3 class="titulo-secao">Nossos Voluntários</h3>
+            <div class="grade-voluntarios">
+
+                <a href="paginamedicos/medico1.html" target="_blank">   
+                <div class="cartao-voluntario">
+                    <img src="imagens/medicos/medico1.png" alt="Dra. Peter Parker" class="foto-voluntario">
+                    <div class="info-voluntario">
+                        <h4 class="nome-voluntario">Dr. Peter Parker</h4>
+                        <p class="especializacao">Especialista em Ansiedade e Depressão</p>
+                        <p class="descricao-breve">10 anos de experiência em terapia cognitivo-comportamental.</p>
+                          <span class="botao-saiba-mais">Saiba Mais</span>
+                    </div>
+                </div>
+                </a>
+
+                <a href="paginamedicos/medico2.html" target="_blank"> 
+                <div class="cartao-voluntario">
+                    <img src="imagens/medicos/medico2.png" alt="Dr. Inácio Palermos" class="foto-voluntario">
+                    <div class="info-voluntario">
+                        <h4 class="nome-voluntario">Dr. Inácio Palermos</h4>
+                        <p class="especializacao">Terapeuta Familiar</p>
+                        <p class="descricao-breve">Especialista em relacionamentos e dinâmicas familiares.</p>
+                        <button class="botao-saiba-mais">Saiba Mais</button>
+                    </div>
+                </div>
+                </a>
+
+                  <a href="paginamedicos/medico3.html" target="_blank"> 
+                <div class="cartao-voluntario">
+                    <img src="imagens/medicos/medico3.png" alt="Dr. Tarcisio Gula" class="foto-voluntario">
+                    <div class="info-voluntario">
+                        <h4 class="nome-voluntario">Dra. Tarcisio Gula</h4>
+                        <p class="especializacao">Psicólogo Infantil</p>
+                        <p class="descricao-breve">Especializado no desenvolvimento emocional de crianças.</p>
+                        <button class="botao-saiba-mais">Saiba Mais</button>
+                    </div>
+                </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+</body>
+<!-- ================================== KAYKY FIM ======================================= -->
+
+<!-- ================================== MATHEUS COMEÇO ======================================= -->
+
+<div class="container-apoio">
+    <h1>Apoio Mente</h1>
+
+    <p class="nav-links">
+        <a href="inicial.html">Inicio</a>
+        <a href="agendamento.html">Agendamento</a>
+    </p>
+
+    <h2>Agende sua Sessão</h2>
+    <p>Preencha os dados abaixo para marcar um atendimento:</p>
+
+    <form >
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+        </p>
+
+        <p>
+            <label for="voluntario">Voluntário:</label>
+            <select name="voluntario" id="">
+                <option>Escolha...</option>
+                <option>Dr.Peter Parker - Psicólogo</option>
+                <option>Dr. Inácio Palermos - Terapeuta</option>
+                <option>Dra.Tarcisio Gula - Infantil</option>
+                <option>Grupo de Apoio</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="data">Data:</label>
+            <input type="text" id="data" name="data">
+        </p>
+
+        <p>
+            <label for="hora">Hora:</label>
+            <input type="text" id="Hora" name="hora">
+        </p>
+        <p>
+            <input type="submit" value="Agendar">
+        </p>
+    </form>
+
+    <h3>Horários Disponíveis</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Voluntários</th>
+                <th>Especializados</th>
+                <th>Data</th>
+                <th>Hora</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dr. Inácio Palermos</td>
+                <td>Terapeuta</td>
+                <td>10/10/2025</td>
+                <td>14:00</td>
+            </tr>
+            <tr>
+                <td>Dr. Tarcisio Gula</td>
+                <td>Infantil</td>
+                <td>11/10/2025</td>
+                <td>09:30</td>
+            </tr>
+            <tr>
+                <td>Dr. Peter Parker</td>
+                <td>psicólogo</td>
+                <td>12/10/2025</td>
+                <td>17:10</td>
+            </tr>
+            <tr>
+                <td>Grupo de Apoio</td>
+                <td>Ansiedade</td>
+                <td>12/10/2025</td>
+                <td>19:00</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- ================================== MATHEUS FIM ======================================= -->
+
+<!-- ================================== GABRIEL COMEÇO ======================================= -->
+
+
+
+
+                   <!--__________Gabriel_________--> 
+           <!-------------Cadastro de Voluntarios------------>
+  
+<!-- =================== SEÇÃO DE FORMULÁRIO MODIFICADA =================== -->
+<section id="ser-voluntario" class="secao-formulario">
+    <div class="container">
+        <h3 class="titulo-secao">Seja um Voluntário</h3>
+        <p class="texto-introducao">
+            Preencha o formulário abaixo para se juntar à nossa rede de apoio. Sua ajuda faz a diferença!
+        </p>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefone">Telefone (com DDD):</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="disponibilidade">Disponibilidade:</label>
+                        <input type="text" id="disponibilidade" name="disponibilidade" placeholder="Ex: Finais de semana">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Áreas de Interesse:</label>
+                    <div class="checkbox-container">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="eventos" name="interesses[]" value="eventos">
+                            <label for="eventos">Eventos</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="administrativo" name="interesses[]" value="administrativo">
+                            <label for="administrativo">Administrativo</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="comunicacao" name="interesses[]" value="comunicacao">
+                            <label for="comunicacao">Comunicação</label>
+                        </div>
+                         <div class="checkbox-group">
+                            <input type="checkbox" id="outros" name="interesses[]" value="outros">
+                            <label for="outros">Outras</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="experiencia">Experiência Voluntária Anterior:</label>
+                    <textarea id="experiencia" name="experiencia" rows="5" placeholder="Descreva brevemente sua experiência..."></textarea>
+                </div>
+
+                <button type="submit" class="botao-destaque">Enviar Inscrição</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ================================== GABRIEL FIM ======================================= -->
+
+<!-- ================================== BRENO COMEÇO ======================================= -->
+
+
+
+<main class="blog-container">
+    <section class="blog">
+      <h2>Blog: Cuidando da Mente</h2>
+      <p>
+        O nosso principal objetivo é promover a saúde mental e o bem-estar emocional por meio do desenvolvimento de uma plataforma digital que conecta voluntários — como psicólogos, terapeutas e grupos de apoio — a pessoas que buscam acolhimento e escuta.
+
+Além de criar um espaço de apoio, o projeto busca estimular a conscientização sobre a importância do cuidado psicológico, oferecendo conteúdos educativos, informações confiáveis e recursos acessíveis a todos.
+cade vc peidado da slva
+      </p>
+      <p>
+        Nosso objetivo é implementar um front-end funcional e interativo para um site de apoio à saúde mental, garantindo uma experiência fluida, acessível e acolhedora para os usuários.
+      </p>
+    </section>
+    <section class="artigos">
+      <article class="card">
+        <img src="imagens/blog/praticasautocuidado.png" alt="Pessoa relaxando em meio à natureza">
+        <h3>Práticas simples de autocuidado</h3>
+        <p>Descubra pequenas ações diárias que podem fortalecer sua saúde emocional e mental.</p>
+        <a href="artigo-autocuidado.html" class="botao">Leia mais</a>
+      </article>
+
+      <article class="card">
+        <img src="imagens/blog/comolidarcomaansiedade.png" alt="Mulher respirando fundo para controlar ansiedade">
+        <h3>Como lidar com a ansiedade</h3>
+        <p>Dicas práticas para identificar sintomas e aplicar técnicas que ajudam a controlar a ansiedade.</p>
+        <a href="artigo-ansiedade.html" class="botao">Leia mais</a>
+      </article>
+
+      <article class="card">
+        <img src="imagens/blog/compreendendoadepressao.png" alt="Pessoa sendo acolhida por outra em momento difícil">
+        <h3>Compreendendo a depressão</h3>
+        <p>Saiba reconhecer os sinais, compreender as causas e buscar ajuda profissional de forma segura.</p>
+        <a href="artigo-depressao.html" class="botao">Leia mais</a>
+      </article>
+    </section>
+    <section class="recursos">
+      <h2>Recursos Recomendados</h2>
+      <ul>
+        <li><a href="https://www.who.int/pt" target="_blank">Organização Mundial da Saúde (OMS)</a></li>
+        <li><a href="https://www.gov.br/saude" target="_blank">Ministério da Saúde</a></li>
+        <li><a href="https://cvv.org.br" target="_blank">CVV – Centro de Valorização da Vida</a></li>
+      </ul>
+    </section>
+  </main>
+
+
+
+
+<!-- ================================== BRENO FIM ======================================= -->
+
+
+
+<!-- ================================== GUI COMEÇO ======================================= -->
+
+
+
+<div class="container">
+        <div class="title">Perguntas Frequentes</div>
+        <div class="faq-content">
+            <details>
+                <summary>
+                    <span>O serviço oferecido é gratuito?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    Sim. A plataforma conecta pessoas a voluntários (psicólogos, terapeutas e grupos de apoio) que oferecem escuta, orientação e acolhimento de forma gratuita.
+                </div>
+            </details>
+                        <details>
+                <summary>
+                    <span>A plataforma substitui uma terapia profissional?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    Não. O apoio oferecido aqui é complementar e de caráter voluntário. Se você já faz acompanhamento psicológico ou psiquiátrico, continue o tratamento normalmente. A plataforma é um espaço de escuta e suporte inicial.
+                </div>
+            </details>
+                        <details>
+                <summary>
+                    <span>Como posso me cadastrar para receber ajuda?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    Basta criar uma conta gratuita na plataforma, preencher algumas informações básicas e escolher se prefere conversar por chat, chamada de voz ou vídeo. Você será conectado a um voluntário disponível.
+                </div>
+            </details>
+                        <details>
+                <summary>
+                    <span>Quem são os voluntários da plataforma?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    São psicólogos, terapeutas e facilitadores de grupos de apoio que se inscreveram voluntariamente. Sempre que possível, os profissionais têm sua formação verificada, mas também contamos com voluntários treinados em escuta empática.
+                </div>
+            </details>
+                        <details>
+                <summary>
+                    <span>As conversas são confidenciais?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    Sim. Todas as conversas são protegidas e não serão divulgadas. A privacidade dos usuários é uma prioridade da plataforma.
+                </div>
+            </details>
+                        <details>
+                <summary>
+                    <span>Posso me tornar voluntário também?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    Sim! Basta acessar a seção "Quero ser voluntário", preencher o formulário e aguardar o processo de verificação. Após aprovação, você poderá oferecer suporte a quem precisa.
+                </div>
+            </details>
+                        <details>
+                <summary>
+                    <span>O que devo fazer em caso de emergência?</span>
+                    <b></b>
+                </summary>
+                <div class="answer">
+                    A plataforma não substitui serviços de emergência. Se você ou alguém próximo estiver em risco imediato, ligue para o SAMU (192) ou para o CVV – Centro de Valorização da Vida, no 188.
+                </div>
+            </details>
+        </div>
+    </div>
+
+
+<!-- ================================== GUI FIM ======================================= -->
+
+
+
+
+<!-- ================================== GABRIEL COMEÇO ======================================= -->
+
+<section id="voluntario"> </section>
+    <div class="portfolio-section">
+            <h1 class="section-title">Portfólios dos Participantes</h1>
+            
+            <div class="portfolio-grid">
+                <a href="portifolios/guilherme/porti.html" target="_blank" class="portfolio-card">
+                    <div class="participant-icon"><img src="imagens/participantes-foto/imagem 2.jpg" alt=""></div>
+                    <h2 class="participant-name">Guilhereme Mantovani</h2>
+                    <p class="portfolio-label">Portfólio</p>
+                    <span class="view-button">Ver Portfólio <span class="external-icon">↗</span></span>
+                </a>
+
+                <a href="portifolios/kaykyvagula/portifolio.html" target="_blank" class="portfolio-card">
+                    <div class="participant-icon"><img src="imagens/participantes-foto/kayky_3.png" alt=""></div>
+                    <h2 class="participant-name">Kayky Vagula</h2>
+                    <p class="portfolio-label">Portfólio</p>
+                    <span class="view-button">Ver Portfólio <span class="external-icon">↗</span></span>
+                </a>
+
+                <a href="portifolios/paulo/portfolio.html" target="_blank" class="portfolio-card">
+                    <div class="participant-icon"><img src="imagens/participantes-foto/Paulo.jpg" alt=""></div>
+                    <h2 class="participant-name">Paulo SMERDELL</h2>
+                    <p class="portfolio-label">Portfólio</p>
+                    <span class="view-button">Ver Portfólio <span class="external-icon">↗</span></span>
+                </a>
+
+                <a href="portifolios/matheus/portifolio.html" target="_blank" class="portfolio-card">
+                    <div class="participant-icon"><img src="imagens/participantes-foto/Baixinho.jpeg" alt=""></div>
+                    <h2 class="participant-name">Matheus baixinho</h2>
+                    <p class="portfolio-label">Portfólio</p>
+                    <span class="view-button">Ver Portfólio <span class="external-icon">↗</span></span>
+                </a>
+
+                <a href="portifolios/breno/portfolio11.html" target="_blank" class="portfolio-card">
+                    <div class="participant-icon"><img src="imagens/participantes-foto/breno.jpeg" alt=""></div>
+                    <h2 class="participant-name">Breno Cruz</h2>
+                    <p class="portfolio-label">Portfólio</p>
+                    <span class="view-button">Ver Portfólio <span class="external-icon">↗</span></span>
+                </a>
+
+                <a href="portifolios/gabriel/index.html" target="_blank" class="portfolio-card">
+                    <div class="participant-icon"><img src="imagens/participantes-foto/gabriel_4.png" alt=""></div>
+                    <h2 class="participant-name">Gabriel de Moura</h2>
+                    <p class="portfolio-label">Portfólio</p>
+                    <span class="view-button">Ver Portfólio <span class="external-icon">↗</span></span>
+                </a>
+            </div>
+        </div>
+
+
+<!-- ================================== GABRIEL FIM ======================================= -->
+
+
+
+
+<!-- ================================== RODAPÉ COMEÇO ======================================= -->
+
+<footer class="rodape">
+        <div class="container">
+            <div class="conteudo-rodape">
+                <div class="coluna-rodape">
+                    <h4 class="titulo-rodape">Apoio Mente</h4>
+                    <p class="texto-rodape">Conectando corações e mentes para um mundo mais saudável emocionalmente.</p>
+                </div>
+                
+                <div class="coluna-rodape">
+                    <h4 class="titulo-rodape">Redes Sociais</h4>
+                    <ul class="lista-redes-sociais">
+                        <li><a href="#" class="link-rede-social">Facebook</a></li>
+                        <li><a href="#" class="link-rede-social">Instagram</a></li>
+                        <li><a href="#" class="link-rede-social">Twitter</a></li>
+                    </ul>
+                </div>
+                
+                <div class="coluna-rodape">
+                    <h4 class="titulo-rodape">Legal</h4>
+                    <ul class="lista-legal">
+                        <li><a href="#" class="link-legal">Política de Privacidade</a></li>
+                        <li><a href="#" class="link-legal">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                
+                <div class="coluna-rodape">
+                    <h4 class="titulo-rodape">Contato</h4>
+                    <p class="info-contato">Email: -</p>
+                    <p class="info-contato">Telefone: -</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- ================================== RODAPÉ FIM ======================================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+
+</html>

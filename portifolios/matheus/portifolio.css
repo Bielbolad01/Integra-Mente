@@ -1,0 +1,42 @@
+* {margin: 5px; padding: 5px;}
+
+.nome {text-align: center;}
+
+body {font-family: Arial, sans-serif;
+      background-color: rgb(100, 176, 253);}
+
+.titulo {text-align: center;
+         color: darkblue;
+         text-transform: uppercase;
+         margin-top: 20px;
+         text-shadow: 5px 5px 5px rgb(3, 3, 121);}
+
+figure {text-align: center;}
+
+figure img {border: 2px solid black;
+            border-radius: 10px;}
+
+.tabela {border-collapse: collapse;
+         margin: 15px auto;}
+
+.tabela th, .tabela td {border: 1px solid black;
+                        padding: 6px;}
+
+.autor {text-align: center;
+        font-size: 12px;
+        font-style: italic;
+        margin-top: 20px;}
+
+.contato {margin-top: 20px;
+          font-size: 16px;
+          padding: 10px;}
+
+h2 {margin-top: 35px;
+    margin-bottom: 8px;}
+
+h3 {margin-top: 35px;
+    margin-bottom: 8px;}
+
+#foto {width: 170px ;}
+
+img {width: 300px;}
